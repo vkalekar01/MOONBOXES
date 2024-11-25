@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.section-title,
+.header .logo {
+  font-family: "Orbitron", sans-serif;
+}
