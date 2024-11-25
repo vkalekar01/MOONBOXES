@@ -1,0 +1,13 @@
+.section-title {
+  padding: 1rem 0;
+  border-top: 2px solid;
+  border-bottom: 1px solid;
+}
+.mainContentInner::-webkit-scrollbar {
+  display: none;
+}
+
+.mainContentInner {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

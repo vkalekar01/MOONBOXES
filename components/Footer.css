@@ -1,0 +1,19 @@
+.footer button {
+  text-transform: uppercase;
+  border: 1px solid #eab308;
+  padding: 1rem 3rem;
+  position: relative;
+}
+.footer button::after {
+  content: "-";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (max-width: 767px) {
+  .footer button {
+    padding: 1rem;
+    flex: 1;
+  }
+}
